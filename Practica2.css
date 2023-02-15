@@ -1,16 +1,35 @@
-p{
-    font-size: 40px;
-color: blueviolet;
+p {
+  font-size: 40px;
+  color: blueviolet;
 }
-body{
-background-color: brown;
+body {
+  background-image: url(https://images.alphacoders.com/103/thumb-1920-1035377.jpg);
 }
-#id{
-
+h1 {
+  color: blue;
 }
-.class{
-
+.containaer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  border: 2px solid red;
+  height: 100px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
-h1{
-color: blue;
+.container div{
+  width: 200px;
+}
+.elemento1 {
+  background-color: blueviolet;
+}
+.elemento2 {
+  background-color: red;
+}
+.elemento3 {
+  background-color: yellow;
+}
+.elemento4 {
+  background-color: green;
 }
