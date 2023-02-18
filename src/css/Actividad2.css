@@ -82,32 +82,6 @@ nav .mobile .header a{
   padding: 10px;
 }
 
-/* nav .mobile .links{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 200;
-}
-
-nav .mobile .links a {
-  font-size: 20px;
-display: block;
-padding: 10px 20px;
-text-decoration: none;
-
-color: white;
-}
-
-nav .mobile .links a:hover {
-  font-size: 20px;
-display: block;
-padding: 10px 20px;
-text-decoration: none;
-
-color: black;
-background-color: white;
-}  */
-
 @media screen and (max-width: 415px) {
   nav {
     width: 100%;
