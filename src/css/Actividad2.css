@@ -57,6 +57,38 @@ nav ul li .link:hover:before {
 
 /* NAVBAR MOBILE */
 
+/* lol */
+/* nav .mobile {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav .mobile .header div > a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 20px 15px 10px 15px;
+
+  color: white;
+}
+nav .mobile .header div .link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+
+  background-color: white;
+}
+nav .mobile .header div .link:hover:before {
+  transform: scaleX(1);
+} */
+/* lol */
 nav .mobile {
   display: none;
   width: 100%;
@@ -92,6 +124,62 @@ nav .mobile .header a {
   }
 }
 
+/* lol */
+/* nav .menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  min-width: 200px;
+  margin-top: 48px;
+
+  background-color: white;
+}
+
+nav .menu a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+nav .menu a:hover {
+  background-color: black;
+  color: white;
+}
+
+nav .mobile .header #bmenu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  color: white;
+}
+
+nav .mobile .links {
+  display: none;
+  flex-direction: column;
+  position: relative;
+  z-index: 200;
+
+  background-color: black;
+}
+nav .mobile .links a {
+  font-size: 20px;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav .mobile .links a:hover {
+  font-size: 20px;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  color: black;
+  background-color: white;
+} */
+
 /* CARD */
 
 .container-card {
@@ -118,7 +206,7 @@ nav .mobile .header a {
 
 .card img {
   width: 100%;
-  height: 280px;
+  height: 350px;
 }
 
 .card .contenido {
@@ -199,7 +287,10 @@ footer div ul img {
 
 /* INDEX IMAGENES */
 
-
+/* .Img{
+  margin: 50px; 
+  
+} */
 
 /* INDEX LOGOs */
 
