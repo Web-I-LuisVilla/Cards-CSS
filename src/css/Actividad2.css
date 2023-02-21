@@ -274,16 +274,15 @@ footer {
   justify-content: space-between;
   margin: 20px;
 }
-footer a,
-b {
+
+footer a,b {
   text-decoration: none;
   color: white;
 }
+
 footer div ul img {
   width: 30px;
   margin-right: 10px;
-  text-decoration: none;
-  text-align: center;
 }
 
 /* INDEX IMAGENES */
