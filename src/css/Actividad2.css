@@ -279,3 +279,13 @@ footer img {
 footer b {
   color: white;
 }
+
+/* INDEX IMAGENES */
+
+.Img{
+
+  /* display: flex; */
+  /* justify-content: space-around;
+  align-items: center;*/
+  margin: 20px; 
+}
