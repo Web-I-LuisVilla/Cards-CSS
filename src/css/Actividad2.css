@@ -180,7 +180,6 @@ nav .mobile .links a:hover {
   background-color: white;
 } */
 
-
 /* CARD */
 
 .container-card {
@@ -271,21 +270,34 @@ main .mobile-container {
 /* FOOTER */
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
-footer img {
-  width: 200px;
-}
-footer b {
+footer a,
+b {
+  text-decoration: none;
   color: white;
+}
+footer div ul img {
+  width: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 /* INDEX IMAGENES */
 
-.Img{
+/* .Img{
+  margin: 50px; 
+  
+} */
 
-  /* display: flex; */
-  /* justify-content: space-around;
-  align-items: center;*/
-  margin: 20px; 
+/* INDEX LOGOs */
+
+.Logos {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
