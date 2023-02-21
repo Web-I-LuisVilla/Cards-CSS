@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+
+  background-color: black;
+}
+
+/* NAVBAR ESCRITORIO */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li > a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 20px 15px 10px 15px;
+
+  color: white;
+}
+
+nav ul li .link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+
+  background-color: white;
+}
+
+nav ul li .link:hover:before {
+  transform: scaleX(1);
+}
+
+/* NAVBAR MOBILE */
+
+nav .mobile {
+  display: none;
+  width: 100%;
+}
+
+nav .mobile .header {
+  display: flex;
+  text-align: end;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: black;
+}
+
+nav .mobile .header a {
+  color: white;
+  display: inline-flex;
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 915px) {
+  nav {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .mobile {
+    display: block;
+  }
+}
+
+/* CARD */
+
+.container-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0px 1px 10px rgb(247, 243, 243);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(248, 247, 247, 0.993);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+}
+
+.card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido p {
+  line-height: 1.5;
+  color: #494545fd;
+}
+
+.card .contenido h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card .contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #c27171fd;
+  border: 1px solid #c27171fd;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido a:hover {
+  background: #c27171fd;
+  color: white;
+}
+
+main .mobile-container {
+  display: none;
+  width: 100%;
+}
+
+.mobile-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 915px) {
+  main {
+    width: 100%;
+    padding: 0;
+  }
+
+  main section {
+    display: none;
+  }
+
+  main .mobile-container {
+    display: block;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+footer a,b {
+  text-decoration: none;
+  color: white;
+}
+
+footer div ul img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* INDEX IMAGENES */
+
+
+
+/* INDEX LOGOs */
+
+.Logos {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* FORMULARIO */
+
+.formulario, .formulario p{
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
