@@ -300,3 +300,12 @@ footer div ul img {
   justify-content: space-around;
   align-items: center;
 }
+
+/* FORMULARIO */
+
+.formulario, .formulario p{
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
