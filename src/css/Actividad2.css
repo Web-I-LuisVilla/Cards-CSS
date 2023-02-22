@@ -205,9 +205,9 @@ footer div ul img {
 
 .Logos {
   margin: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3,600px);
+  text-align: center;
 }
 
 /* FORMULARIO */
